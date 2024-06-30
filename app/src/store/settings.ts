@@ -12,9 +12,9 @@ export const sendKeys = isMobile() ? ["Ctrl + Enter", "Enter"] : ["Enter", "Ctrl
 export const initialSettings = {
   context: true,
   align: false,
-  history: 8,
+  history: 32,
   sender: isMobile(), // Defaults to true (Enter) in the case of mobile and false (Ctrl + Enter) on PCs
-  max_tokens: 2000,
+  max_tokens: 4000,
   temperature: 0.6,
   top_p: 1,
   top_k: 5,
